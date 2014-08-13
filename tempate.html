@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+<title>artTemplate examples(a nice template engine by Tencent)</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+<script type="text/javascript" src="assets/js/require-setup.js"></script>
+<script type="text/javascript" src="assets/js/require.js"></script>
+</head>
+<body>
+    
+	<div class="container" style="padding:50px 20px; width:900px;">
+		<h3 class="text-center">A nice template engine by Tencent<a class="btn btn-link" href="https://github.com/aui/artTemplate">link</a></h3>
+		<div class="row">
+			<h3>List demo</h3>
+			<hr>
+			<div class="col-sm-12">
+				<div id="content"></div>
+			</div>
+		</div>
+	</div>
+
+	<script id="test" type="text/html">
+		{{if isAdmin}}
+
+		<h3>{{title}}</h3>
+		<ul>
+		    {{each list as value i}}
+		        <li># {{i + 1}} ：{{value}}</li>
+		    {{/each}}
+		</ul>
+
+		{{/if}}
+	</script>
+	<script src="assets/js/app/template/template-page.js"></script> 
+</body>
+</html>
