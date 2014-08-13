@@ -1,0 +1,51 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jquery validation demo</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+<script type="text/javascript" src="assets/js/require-setup.js"></script>
+<script type="text/javascript" src="assets/js/require.js"></script>
+</head>
+<body>
+    
+	<div class="container" style="padding:50px 20px; width:900px;">
+        <h3 class="text-center">jquery validation demo<a class="btn btn-link" href="http://jqueryvalidation.org">link</a></h3>
+		<div class="row">
+			<div class="col-sm-12">
+                <div class="error alert alert-danger" style="display:none;"></div>
+                <form id="regist-form" class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control required" placeholder="Email" name="email" title="email required">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="col-sm-2 control-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control required" placeholder="Password" name="password" title="password required">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Remember me
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="button" id="regist-submit" class="btn btn-default">Sign in</button>
+                        </div>
+                    </div>
+                </form>
+			</div>
+		</div>
+	</div>
+
+	<script src="assets/js/app/validation/validation-page.js"></script>
+</body>
+</html>
