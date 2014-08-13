@@ -8,6 +8,7 @@ var require = {
         'jquery': 'jquery/jquery-1.11.1',
         'jquery.validate': 'jquery-validation/jquery.validate',
         'jquery.treetable': 'jquery-treetable/jquery.treetable',
+        "jquery.layer": "jquery-layer/layer",
         'bootstrap': 'bootstrap/bootstrap',
         'template': 'template/template-debug',
         'echarts':'echarts/echarts-map',
@@ -17,6 +18,7 @@ var require = {
     },
     shim : {
         "bootstrap" : { "deps" :['jquery']},
-        "jquery.treetable" : { "deps" :['jquery']}
+        "jquery.treetable" : { "deps" :['jquery']},
+        "jquery.layer": { "deps" :['jquery']}
     }
 };
