@@ -7,7 +7,7 @@
 <script type="text/javascript" src="../assets/js/require.js"></script>
 <script>
 requirejs.config({
-    baseUrl: 'assets/js/lib',
+    baseUrl: '../assets/js/lib',
     shim : {
         "bootstrap" : { "deps" :['jquery'] }
     },
@@ -37,7 +37,7 @@ requirejs.config({
 	</div>
 	
 	<script type="text/javascript">
-		requirejs(['assets/js/app/echarts/echarts-page.js']);
+		requirejs(['../assets/js/app/echarts/echarts-page.js']);
 	</script>
 </body>
 </html>
