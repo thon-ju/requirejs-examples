@@ -9,6 +9,6 @@ require js examples include most popular plugins, such as:
 * validate plugins: [jQuery Validation](http://jqueryvalidation.org) 1.13.0 done
 * fileupload plugins: [jQuery File Upload](https://github.com/blueimp/jQuery-File-Upload) 9.7.0 working
 * table plugins: [jquery-treetable](https://github.com/ludo/jquery-treetable) 3.2.0 done
-* tips plugins:  [layer](https://github.com/sentsin/layer) 2.2.0 done
+* tips plugins:  [layer](https://github.com/sentsin/layer) 1.8.5 done
 
 
