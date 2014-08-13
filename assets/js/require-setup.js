@@ -6,6 +6,7 @@ var require = {
     baseUrl: 'assets/js/lib',
     paths: {
         'jquery': 'jquery/jquery-1.11.1',
+        'jquery.validate': 'jquery-validation/jquery.validate',
         'bootstrap': 'bootstrap/bootstrap',
         'template': 'template/template-debug',
         'echarts':'echarts/echarts-map',
