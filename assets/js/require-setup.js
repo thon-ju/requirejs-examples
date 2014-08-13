@@ -7,6 +7,7 @@ var require = {
     paths: {
         'jquery': 'jquery/jquery-1.11.1',
         'jquery.validate': 'jquery-validation/jquery.validate',
+        'jquery.treetable': 'jquery-treetable/jquery.treetable',
         'bootstrap': 'bootstrap/bootstrap',
         'template': 'template/template-debug',
         'echarts':'echarts/echarts-map',
@@ -15,6 +16,7 @@ var require = {
         'echarts/chart/map' : 'echarts/echarts-map'
     },
     shim : {
-        "bootstrap" : { "deps" :['jquery']}
+        "bootstrap" : { "deps" :['jquery']},
+        "jquery.treetable" : { "deps" :['jquery']}
     }
 };

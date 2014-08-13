@@ -1,0 +1,47 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jquery validation demo</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/jquery.treetable.css" rel="stylesheet"/>
+    <link href="assets/css/jquery.treetable.theme.default.css" rel="stylesheet"/>
+    <script type="text/javascript" src="assets/js/require-setup.js"></script>
+    <script type="text/javascript" src="assets/js/require.js"></script>
+</head>
+<body>
+
+<div class="container" style="padding:50px 20px; width:900px;">
+    <h3 class="text-center">jquery treetable demo
+        <a class="btn btn-link" href="https://github.com/ludo/jquery-treetable">link</a>
+    </h3>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <table class="table table-bordered table-hover treetable">
+                <tr data-tt-id="0">
+                    <td>app</td>
+                </tr>
+                <tr data-tt-id="1" data-tt-parent-id="0">
+                    <td>controllers</td>
+                </tr>
+                <tr data-tt-id="5" data-tt-parent-id="1">
+                    <td>application_controller.rb</td>
+                </tr>
+                <tr data-tt-id="2" data-tt-parent-id="0">
+                    <td>helpers</td>
+                </tr>
+                <tr data-tt-id="3" data-tt-parent-id="0">
+                    <td>models</td>
+                </tr>
+                <tr data-tt-id="4" data-tt-parent-id="0">
+                    <td>views</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/app/treetable/treetable-page.js"></script>
+</body>
+</html>

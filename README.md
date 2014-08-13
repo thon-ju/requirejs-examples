@@ -8,6 +8,6 @@ require js examples include most popular plugins, such as:
 * template plugins: [artTemplate](https://github.com/aui/artTemplate) 3.0.1 done
 * validate plugins: [jQuery Validation](http://jqueryvalidation.org/) 1.13.0 done
 * fileupload plugins: [jQuery File Upload](https://github.com/blueimp/jQuery-File-Upload) 9.7.0 working
-* table plugins: [jquery-treetable](https://github.com/ludo/jquery-treetable) 3.2.0 working
+* table plugins: [jquery-treetable](https://github.com/ludo/jquery-treetable) 3.2.0 done
 
 
