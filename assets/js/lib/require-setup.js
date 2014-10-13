@@ -4,6 +4,7 @@
 // To config RequireJS after it’s loaded, pass the below object into require.config();
 var require = {
     baseUrl: '../assets/js/lib',
+    urlArgs: "v=0.0.1",
     paths: {
         'jquery': 'jquery/jquery-1.11.1',
         'jquery.validate': 'jquery-validation/jquery.validate',
